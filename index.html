@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3</title>
+    <!--linking to the style sheet-->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <!--Main header & paragraph-->
+    <h1>Welcome to Exercise 3: CSS Fundamentals - Styling and Layout</h1>
+
+    <p>Please sign up to my website. It is full of fun stuff.</p><br><br>
+
+    <!--Registration form-->
+    <div class="formDiv">
+        <form action="#" method="post">
+        
+        <h4>Registration Form</h3>
+        
+        <label for="firstname">First Name:</label><br>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+    
+        <label for="lastname">Last Name:</label><br>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+            
+        <label for="country">Country:</label><br>
+        <input type="text" id="country" name="country" required><br><br>
+            
+        <label for="provstate">Province/State:</label><br>
+        <input type="text" id="provstate" name="provstate" required><br><br>
+    
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city" required><br><br>
+    
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+            
+        <label for="telephone">Telephone Number:</label><br>
+        <input type="number" id="telephone" name="telephone"  required><br><br>
+    
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+            
+        <label for="dob">Date Of Birth</label><br>
+        <input type="date" id="dob" name="dob" required></input><br><br>
+    
+            <!--fieldset for the gender option.-->
+            <fieldset>
+                <legend>Gender:</legend>
+                <label><input type="radio" name="gender" value="male" required>Male</label><br>
+                <label><input type="radio" name="gender" value="female" required>Female</label><br>
+                <label><input type="radio" name="gender" value="nonbinary" required>Non-Binary</label><br>
+                <label><input type="radio" name="gender" value="other" required>Other</label><br>
+            </fieldset><br>
+        
+        <label><input type="checkbox" name="toc" required>I agree to the Terms and Conditions</label><br>
+        <!--buttons-->
+        
+        <div class="flex-container">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+    </div><br><br>
+
+<!--This is for the footer of the page.-->    
+    <hr>
+    <footer>
+        <p>Jeff Hartley 2024</p>
+    </footer>
+
+</body>
+</html>
